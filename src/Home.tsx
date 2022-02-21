@@ -172,7 +172,7 @@ const Home = (props: HomeProps) => {
           ) : (
             <>
               <Header candyMachine={candyMachine} />
-              <h1>Black Hole NFTs that want to be Burn</h1>
+              <h1>Black Hole NFTs that want to be Burned</h1>
               <MintContainer>
                 {candyMachine?.state.isActive &&
                 candyMachine?.state.gatekeeper &&
