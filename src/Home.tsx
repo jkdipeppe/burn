@@ -163,6 +163,10 @@ const Home = (props: HomeProps) => {
 
   return (
     <Container style={{ marginTop: 100 }}>
+      <h1 style={{ color: 'white', margin: 'auto', width: '50%', textAlign:'center'}}>Black Hole NFTs</h1>
+      <p style={{ color: 'white', margin: 'auto', width: '50%', textAlign:'center'}}>This is a personal project created with Candy Machine V2</p>
+      <p style={{ color: 'white', margin: 'auto', width: '50%', textAlign:'center'}}>Always use a burner wallet</p>
+      <p></p>
       <Container maxWidth="xs" style={{ position: 'relative' }}>
         <Paper
           style={{ padding: 24, backgroundColor: '#151A1F', borderRadius: 6 }}
@@ -172,7 +176,6 @@ const Home = (props: HomeProps) => {
           ) : (
             <>
               <Header candyMachine={candyMachine} />
-              <h1>Black Hole NFTs that want to be Burned</h1>
               <MintContainer>
                 {candyMachine?.state.isActive &&
                 candyMachine?.state.gatekeeper &&
